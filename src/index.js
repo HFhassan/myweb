@@ -2,11 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Dinner from './Dinner';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h1>Dinner Menu</h1>
+    <Dinner dishName="Mutton Karahi" />
+    <hr />
+    <Dinner dishName="Beef Biryani" dessert="macflurry oreo" />
+    <hr />
+    <Dinner dishName="Pudding in Sweet Dish" />
   </React.StrictMode>,
   document.getElementById('root')
 );
