@@ -6,6 +6,9 @@ function Dinner(props) {
             <li>We are having {props.dishName} {props.dessert}</li>
         </ul>
     )
+
 }
+
+
 
 export default Dinner;
