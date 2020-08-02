@@ -1,8 +1,11 @@
 import React from 'react';
 import './App.css';
 
-function MediaCrad ({name,body,imageUrl})
+
+
+function MediaCrad ({name,body,imageUrl,counter})
 {
+
     return (
         <div className="box">
            
@@ -10,7 +13,6 @@ function MediaCrad ({name,body,imageUrl})
             <hr/>
             <center><p>{body}</p></center>
             <center><img src={imageUrl} alt="abc" /></center>
-
         </div>
     )
 }
