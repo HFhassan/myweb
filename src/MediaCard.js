@@ -1,9 +1,10 @@
 import React from 'react';
+import './App.css';
 
 function MediaCrad ({name,body,imageUrl})
 {
     return (
-        <div style={{width:400}}>
+        <div className="box">
            
             <center><h1>{name}</h1></center>
             <hr/>
