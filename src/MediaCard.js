@@ -8,7 +8,7 @@ function MediaCrad ({name,body,imageUrl})
             <center><h1>{name}</h1></center>
             <hr/>
             <center><p>{body}</p></center>
-            <center><img src={imageUrl} alt="image" /></center>
+            <center><img src={imageUrl} alt="abc" /></center>
 
         </div>
     )
