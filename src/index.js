@@ -1,15 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import MediaCard from './MediaCard';
-import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Parent from './Parent';
 
  
 ReactDOM.render(
   <React.StrictMode>
-    <Parent />
+    <Parent name="Hassan Farooqui" />
   </React.StrictMode>,
   document.getElementById('root')
 );
