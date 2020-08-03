@@ -3,11 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Parent from './Parent';
+import counterContext from './CounterContext';
 
  
 ReactDOM.render(
   <React.StrictMode>
+    <counterContext.Provider>
     <Parent name="Hassan Farooqui" />
+      </counterContext.Provider>
   </React.StrictMode>,
   document.getElementById('root')
 );
