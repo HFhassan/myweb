@@ -4,7 +4,7 @@ import counterContext from './CounterContext';
 import SecChild from './SecChild';
 
 const Parent = (props) => {
-    let countState = useState(10)
+    let countState = useState(1)
     //countState is an array [count, setCount]
     return (
         <counterContext.Provider value={countState}>
